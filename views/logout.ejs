@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Logout</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Congratulations!You are logged in</h1>
+      <h1>Hello <%=locals.name%></h1>
+      <form action="/logout" id="user-form" method="get">
+        <button type="submit">Logout</button>
+      </form>
+    </div>
+  </body>
+</html>
